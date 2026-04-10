@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto acadêmico sobre móveis desenvolvido em HTML, CSS e JavaScript para a disciplina Tecnologias para Internet.">
+  <meta name="keywords" content="móveis, decoração, interiores, projeto web, uniube, html, css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contato</title>
+</head>
+<body class="">
+<header>
+  <a class="uniube-topo" href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
+    <img src="imagens/uniube_logo.png" alt="Logotipo da Uniube">
+  </a>
+  <span class="tag-topo">Tecnologias para Internet • Projeto Web</span>
+  <h1>Mundo dos Móveis</h1>
+  <p>Formulário visual para simular interação com o site.</p>
+</header>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="historia.html">História</a>
+  <a href="tipos.html">Tipos</a>
+  <a href="materiais.html">Materiais</a>
+  <a href="vantagens.html">Vantagens</a>
+  <a href="ambientes.html">Ambientes</a>
+  <a href="links.html">Links</a>
+  <a href="tabela.html">Tabela</a>
+  <a href="fotos.html">Fotos</a>
+  <a href="contato.html">Contato</a>
+</nav>
+
+<main>
+  <section>
+    <div class="section-topo">
+      <span class="mini-tag">Interação</span>
+      <h2>Contato e opinião</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Fale sobre o projeto</h3>
+        <p>Este formulário foi incluído para cumprir a proposta do trabalho e simular uma área de contato. Nele, o visitante pode enviar opinião, sugestão ou comentário sobre o tema móveis.</p>
+        <ul class="lista-check">
+          <li>Campos organizados e responsivos</li>
+          <li>Visual limpo com foco animado</li>
+          <li>Mensagem de envio simulada</li>
+        </ul>
+      </div>
+      <form id="formContato">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+        <label for="assunto">Assunto</label>
+        <select id="assunto" name="assunto">
+          <option>Opinião sobre o trabalho</option>
+          <option>Sugestão de móvel</option>
+          <option>Projeto para sala</option>
+          <option>Projeto para quarto</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+
+        <button type="submit">Enviar mensagem</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
+  <div class="uniube-bloco">
+    <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
+      <img src="imagens/uniube.png" alt="Logo UNIUBE">
+    </a>
+    <p>UNIUBE</p>
+  </div>
+</footer>
+<button id="voltarTopo" class="voltar-topo" aria-label="Voltar ao topo">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>

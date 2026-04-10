@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto acadêmico sobre móveis desenvolvido em HTML, CSS e JavaScript para a disciplina Tecnologias para Internet.">
+  <meta name="keywords" content="móveis, decoração, interiores, projeto web, uniube, html, css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mundo dos Móveis - Início</title>
+</head>
+<body class="pagina-inicial">
+<header>
+  <a class="uniube-topo" href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
+    <img src="imagens/uniube_logo.png" alt="Logotipo da Uniube">
+  </a>
+  <span class="tag-topo">Tecnologias para Internet • Projeto Web</span>
+  <h1>Mundo dos Móveis</h1>
+  <p>Projeto Web - Parte 1 com visual final vibrante e organizado.</p>
+</header>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="historia.html">História</a>
+  <a href="tipos.html">Tipos</a>
+  <a href="materiais.html">Materiais</a>
+  <a href="vantagens.html">Vantagens</a>
+  <a href="ambientes.html">Ambientes</a>
+  <a href="links.html">Links</a>
+  <a href="tabela.html">Tabela</a>
+  <a href="fotos.html">Fotos</a>
+  <a href="contato.html">Contato</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-conteudo reveal-on-load">
+    <span class="destaque-vivo">Projeto final completo</span>
+    <h2>Móveis modernos para transformar cada ambiente com conforto, organização e estilo.</h2>
+    <p>Este site apresenta informações, inspirações visuais, tipos de móveis, materiais, vantagens e aplicações em diferentes espaços, com layout vibrante, animações suaves e visual pronto para entrega.</p>
+    <div class="hero-acoes">
+      <a class="botao" href="sobre.html">Começar visita</a>
+      <a class="botao botao-secundario" href="fotos.html">Ver galeria</a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section>
+    <div class="section-topo">
+      <span class="mini-tag">Página inicial</span>
+      <h2>Apresentação do projeto</h2>
+    </div>
+    <p>O tema escolhido foi móveis, porque ele permite unir utilidade, estética, conforto e organização. A proposta do trabalho foi desenvolver um site com várias páginas, imagens locais, galeria, tabela, formulário, links externos e navegação clara, respeitando a estrutura pedida pela disciplina.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card"><strong>10+</strong><span>Páginas organizadas</span></div>
+      <div class="stat-card"><strong>100%</strong><span>Visual responsivo</span></div>
+      <div class="stat-card"><strong>Local</strong><span>Imagens no projeto</span></div>
+      <div class="stat-card"><strong>UNIUBE</strong><span>Entrega pronta</span></div>
+    </div>
+
+    <div class="caixa destaque-caixa">
+      <h3>Objetivo principal</h3>
+      <p>Mostrar que os móveis são essenciais para o dia a dia e que influenciam diretamente na funcionalidade e na decoração de salas, quartos, cozinhas, escritórios e outros ambientes.</p>
+    </div>
+
+    <div class="grade">
+      <article class="card card-colorido">
+        <h3>Conforto</h3>
+        <p>Sofás, camas, cadeiras e poltronas melhoram a experiência das pessoas e tornam os espaços mais agradáveis.</p>
+      </article>
+      <article class="card card-colorido">
+        <h3>Organização</h3>
+        <p>Guarda-roupas, racks, armários e estantes ajudam a manter tudo em ordem de forma prática.</p>
+      </article>
+      <article class="card card-colorido">
+        <h3>Estilo</h3>
+        <p>Além da função, os móveis valorizam o ambiente e ajudam a criar identidade visual para cada espaço.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="linha">
+      <div class="coluna">
+        <div class="section-topo">
+          <span class="mini-tag">Destaque visual</span>
+          <h2>Ambientes bem planejados</h2>
+        </div>
+        <p>Quando o móvel é bem escolhido, o ambiente fica mais bonito, mais confortável e mais eficiente. Por isso, observar tamanho, material, cor, ergonomia e durabilidade faz toda diferença no momento da escolha.</p>
+        <ul class="lista-check">
+          <li>Visual moderno e colorido</li>
+          <li>Leitura fácil e navegação simples</li>
+          <li>Layout com cara de site real</li>
+          <li>Elementos prontos para apresentação acadêmica</li>
+        </ul>
+      </div>
+      <div class="coluna imagem destaque-imagem">
+        <img src="imagens/sala.jpg" alt="Sala moderna com móveis elegantes">
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="section-topo">
+      <span class="mini-tag">Catálogo interativo</span>
+      <h2>Escolha seu estilo de móvel</h2>
+    </div>
+    <p>Esta área foi adicionada para deixar o projeto mais interativo, com filtro por categoria e carrinho em JavaScript.</p>
+    <div class="filtros-catalogo" id="filtrosCatalogo">
+      <button class="filtro-btn ativo" data-filter="todos">Todos</button>
+      <button class="filtro-btn" data-filter="sofa">Sofás</button>
+      <button class="filtro-btn" data-filter="mesa">Mesas</button>
+      <button class="filtro-btn" data-filter="armario">Armários</button>
+      <button class="filtro-btn" data-filter="decoracao">Decoração</button>
+    </div>
+    <div class="catalogo-grid" id="catalogoProdutos">
+      <article class="produto-card" data-category="sofa" data-name="Sofá Confort Plus" data-price="2899">
+        <img src="imagens/sofa.jpg" alt="Sofá moderno azul">
+        <div class="produto-info">
+          <span class="produto-tag">Sala</span>
+          <h3>Sofá Confort Plus</h3>
+          <p>Modelo moderno com toque confortável para ambientes amplos.</p>
+          <div class="produto-rodape"><strong>R$ 2.899,00</strong><button class="botao add-cart">Adicionar</button></div>
+        </div>
+      </article>
+      <article class="produto-card" data-category="mesa" data-name="Mesa Elegance" data-price="1499">
+        <img src="imagens/mesa.jpg" alt="Mesa elegante de jantar">
+        <div class="produto-info">
+          <span class="produto-tag">Jantar</span>
+          <h3>Mesa Elegance</h3>
+          <p>Acabamento sofisticado para refeições em família.</p>
+          <div class="produto-rodape"><strong>R$ 1.499,00</strong><button class="botao add-cart">Adicionar</button></div>
+        </div>
+      </article>
+      <article class="produto-card" data-category="armario" data-name="Armário Smart" data-price="1999">
+        <img src="imagens/armario.jpg" alt="Armário planejado moderno">
+        <div class="produto-info">
+          <span class="produto-tag">Organização</span>
+          <h3>Armário Smart</h3>
+          <p>Boa capacidade de armazenamento com visual limpo.</p>
+          <div class="produto-rodape"><strong>R$ 1.999,00</strong><button class="botao add-cart">Adicionar</button></div>
+        </div>
+      </article>
+      <article class="produto-card" data-category="decoracao" data-name="Poltrona Style" data-price="899">
+        <img src="imagens/extra.jpg" alt="Poltrona decorativa em ambiente moderno">
+        <div class="produto-info">
+          <span class="produto-tag">Decoração</span>
+          <h3>Poltrona Style</h3>
+          <p>Peça ideal para destacar cantinhos de leitura e descanso.</p>
+          <div class="produto-rodape"><strong>R$ 899,00</strong><button class="botao add-cart">Adicionar</button></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="quiz-section">
+    <div class="section-topo">
+      <span class="mini-tag">Quiz interativo</span>
+      <h2>Teste seus conhecimentos sobre móveis</h2>
+    </div>
+    <p>O quiz foi colocado para deixar a página inicial mais dinâmica e mostrar uso de JavaScript no projeto.</p>
+    <div class="quiz-box" id="quizBox">
+      <h3>Qual material é muito usado em armários e painéis por ter bom custo-benefício?</h3>
+      <div class="quiz-opcoes">
+        <button class="quiz-opcao" data-correct="false">Vidro</button>
+        <button class="quiz-opcao" data-correct="true">MDF</button>
+        <button class="quiz-opcao" data-correct="false">Pedra</button>
+        <button class="quiz-opcao" data-correct="false">Bambu cru</button>
+      </div>
+      <p class="quiz-resultado" id="quizResultado"></p>
+    </div>
+  </section>
+
+</main>
+<footer>
+  <p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
+  <div class="uniube-bloco">
+    <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
+      <img src="imagens/uniube.png" alt="Logo UNIUBE">
+    </a>
+    <p>UNIUBE</p>
+  </div>
+</footer>
+<button id="voltarTopo" class="voltar-topo" aria-label="Voltar ao topo">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
