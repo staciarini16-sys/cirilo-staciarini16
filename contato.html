@@ -1,86 +1,75 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Projeto acadêmico sobre móveis desenvolvido em HTML, CSS e JavaScript para a disciplina Tecnologias para Internet.">
-  <meta name="keywords" content="móveis, decoração, interiores, projeto web, uniube, html, css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Contato</title>
-</head>
-<body class="">
-<header>
-  <a class="uniube-topo" href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
-    <img src="imagens/uniube_logo.png" alt="Logotipo da Uniube">
-  </a>
-  <span class="tag-topo">•</span>
-  <h1>Mundo dos Móveis</h1>
-  <p>Formulário visual para simular interação com o site.</p>
+<meta charset="utf-8"/>
+<meta content="Projeto acadêmico sobre móveis desenvolvido em HTML e CSS." name="description"/>
+<meta content="móveis, decoração, Uniube, HTML, CSS, projeto web" name="keywords"/>
+<meta content="COLOQUE_AQUI_SEU_TOKEN_GSC" name="google-site-verification"/>
+<!-- Google Tag Manager - substituir pelo ID real -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXX');
+  </script>
+<!-- Google Analytics 4 - substituir pelo ID real -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contato</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta content="#123f8c" name="theme-color"/></head>
+<body>
+<div class="progress-scroll" id="progressScroll"></div>
+<div class="preloader" id="preloader"><div class="loader-ring"></div><p>Carregando showroom...</p></div>
+<header><div class="header-tools"><span class="pill">Projeto acadêmico UNIUBE</span><button aria-label="Alternar tema" class="theme-toggle" type="button">🌙</button></div>
+<a class="uniube-topo" href="https://uniube.br/" target="_blank">
+<img alt="Logotipo da Uniube" src="imagens/uniube_logo.png"/>
+</a>
+<h1>Mundo dos Móveis</h1>
+<p>Informações e formulário</p>
 </header>
-<nav>
-  <a href="index.html">Início</a>
-  <a href="sobre.html">Sobre</a>
-  <a href="historia.html">História</a>
-  <a href="tipos.html">Tipos</a>
-  <a href="materiais.html">Materiais</a>
-  <a href="vantagens.html">Vantagens</a>
-  <a href="ambientes.html">Ambientes</a>
-  <a href="links.html">Links</a>
-  <a href="tabela.html">Tabela</a>
-  <a href="fotos.html">Fotos</a>
-  <a href="contato.html">Contato</a>
-</nav>
-
+<nav class="nav-principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="historia.html">História</a><a href="tipos.html">Tipos</a><a href="materiais.html">Materiais</a><a href="vantagens.html">Vantagens</a><a href="ambientes.html">Ambientes</a><a href="links.html">Links</a><a href="tabela.html">Tabela</a><a href="fotos.html">Fotos</a><a href="contato.html">Contato</a><a href="layout.html">Layout Interativo</a></nav>
 <main>
-  <section>
-    <div class="section-topo">
-      <span class="mini-tag">Interação</span>
-      <h2>Contato e opinião</h2>
-    </div>
-    <div class="contact-grid">
-      <div class="contact-info">
-        <h3>Fale sobre o projeto</h3>
-        <p>Este formulário foi incluído para cumprir a proposta do trabalho e simular uma área de contato. Nele, o visitante pode enviar opinião, sugestão ou comentário sobre o tema móveis.</p>
-        <ul class="lista-check">
-          <li>Campos organizados e responsivos</li>
-          <li>Visual limpo com foco animado</li>
-          <li>Mensagem de envio simulada</li>
-        </ul>
-      </div>
-      <form id="formContato">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
-
-        <label for="assunto">Assunto</label>
-        <select id="assunto" name="assunto">
-          <option>Opinião sobre o trabalho</option>
-          <option>Sugestão de móvel</option>
-          <option>Projeto para sala</option>
-          <option>Projeto para quarto</option>
-        </select>
-
-        <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
-
-        <button type="submit">Enviar mensagem</button>
-        <p class="form-status" id="formStatus"></p>
-      </form>
-    </div>
-  </section>
+<section>
+<h2>Contato</h2>
+<p>Preencha os dados abaixo para registrar sua opinião ou sugestão relacionada ao tema móveis.</p>
+<form>
+<label for="nome">Nome</label>
+<input id="nome" name="nome" placeholder="Digite seu nome" type="text"/>
+<label for="email">E-mail</label>
+<input id="email" name="email" placeholder="Digite seu e-mail" type="email"/>
+<label for="assunto">Assunto</label>
+<select id="assunto" name="assunto">
+<option>Opinião sobre o trabalho</option>
+<option>Sugestão de móvel</option>
+<option>Projeto para sala</option>
+<option>Projeto para quarto</option>
+</select>
+<label for="mensagem">Mensagem</label>
+<textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="5"></textarea>
+<button type="submit">Enviar</button>
+</form>
+</section>
 </main>
 <footer>
-  <p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
-  <div class="uniube-bloco">
-    <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
-      <img src="imagens/uniube.png" alt="Logo UNIUBE">
-    </a>
-    <p>UNIUBE</p>
+<p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
+<div class="uniube-bloco">
+<img alt="Logo UNIUBE" src="imagens/uniube.png"/>
+<p>UNIUBE</p>
+</div>
+<p class="footer-extra">Site responsivo com galeria, formulário, catálogo, quiz, carrinho e interações dinâmicas.</p></footer>
+<div class="assistente-flutuante" id="assistenteFlutuante">
+  <button class="assistente-btn" type="button">💡</button>
+  <div class="assistente-box">
+    <strong>Dica do projeto</strong>
+    <p>Explore os filtros, o tema escuro, a galeria e a página de layout interativo.</p>
   </div>
-</footer>
-<button id="voltarTopo" class="voltar-topo" aria-label="Voltar ao topo">↑</button>
+</div>
+<button class="voltar-topo" id="voltarTopo">↑</button>
 <script src="js/script.js"></script>
 </body>
 </html>

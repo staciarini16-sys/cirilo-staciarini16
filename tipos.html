@@ -1,81 +1,67 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Projeto acadêmico sobre móveis desenvolvido em HTML, CSS e JavaScript para a disciplina Tecnologias para Internet.">
-  <meta name="keywords" content="móveis, decoração, interiores, projeto web, uniube, html, css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Tipos de Móveis</title>
-</head>
-<body class="">
-<header>
-  <a class="uniube-topo" href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
-    <img src="imagens/uniube_logo.png" alt="Logotipo da Uniube">
-  </a>
-  <span class="tag-topo">•</span>
-  <h1>Mundo dos Móveis</h1>
-  <p>Conhecendo as principais categorias de móveis.</p>
+<meta charset="utf-8"/>
+<meta content="Projeto acadêmico sobre móveis desenvolvido em HTML e CSS." name="description"/>
+<meta content="móveis, decoração, Uniube, HTML, CSS, projeto web" name="keywords"/>
+<meta content="COLOQUE_AQUI_SEU_TOKEN_GSC" name="google-site-verification"/>
+<!-- Google Tag Manager - substituir pelo ID real -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXX');
+  </script>
+<!-- Google Analytics 4 - substituir pelo ID real -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tipos de Móveis</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta content="#123f8c" name="theme-color"/></head>
+<body>
+<div class="progress-scroll" id="progressScroll"></div>
+<div class="preloader" id="preloader"><div class="loader-ring"></div><p>Carregando showroom...</p></div>
+<header><div class="header-tools"><span class="pill">Projeto acadêmico UNIUBE</span><button aria-label="Alternar tema" class="theme-toggle" type="button">🌙</button></div>
+<a class="uniube-topo" href="https://uniube.br/" target="_blank">
+<img alt="Logotipo da Uniube" src="imagens/uniube_logo.png"/>
+</a>
+<h1>Mundo dos Móveis</h1>
+<p>Principais exemplos</p>
 </header>
-<nav>
-  <a href="index.html">Início</a>
-  <a href="sobre.html">Sobre</a>
-  <a href="historia.html">História</a>
-  <a href="tipos.html">Tipos</a>
-  <a href="materiais.html">Materiais</a>
-  <a href="vantagens.html">Vantagens</a>
-  <a href="ambientes.html">Ambientes</a>
-  <a href="links.html">Links</a>
-  <a href="tabela.html">Tabela</a>
-  <a href="fotos.html">Fotos</a>
-  <a href="contato.html">Contato</a>
-</nav>
-
+<nav class="nav-principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="historia.html">História</a><a href="tipos.html">Tipos</a><a href="materiais.html">Materiais</a><a href="vantagens.html">Vantagens</a><a href="ambientes.html">Ambientes</a><a href="links.html">Links</a><a href="tabela.html">Tabela</a><a href="fotos.html">Fotos</a><a href="contato.html">Contato</a><a href="layout.html">Layout Interativo</a></nav>
 <main>
-  <section>
-    <div class="section-topo">
-      <span class="mini-tag">Classificação</span>
-      <h2>Principais tipos de móveis</h2>
-    </div>
-    <p>Existem vários tipos de móveis, e cada um atende necessidades específicas de uso, organização e decoração. Alguns são mais voltados ao conforto, enquanto outros se destacam pela praticidade.</p>
-    <div class="grade">
-      <div class="card"><h3>Sofás</h3><p>Ideais para salas e áreas de convivência, oferecendo conforto e estilo.</p></div>
-      <div class="card"><h3>Mesas</h3><p>Podem ser usadas em cozinhas, salas de jantar, escritórios e áreas externas.</p></div>
-      <div class="card"><h3>Armários</h3><p>Essenciais para armazenamento, organização e aproveitamento do espaço.</p></div>
-      <div class="card"><h3>Cadeiras</h3><p>Combinam ergonomia, mobilidade e função em vários tipos de ambiente.</p></div>
-      <div class="card"><h3>Camas</h3><p>Peças indispensáveis para descanso e conforto nos quartos.</p></div>
-      <div class="card"><h3>Estantes</h3><p>Ótimas para organizar livros, objetos decorativos e materiais de uso diário.</p></div>
-    </div>
-  </section>
-
-  <section>
-    <div class="linha">
-      <div class="coluna imagem">
-        <img src="imagens/sofa.jpg" alt="Sofá moderno em destaque">
-      </div>
-      <div class="coluna">
-        <h2>Escolha por necessidade</h2>
-        <p>A escolha do tipo de móvel deve levar em conta o uso do ambiente e o objetivo principal. Em uma sala, por exemplo, o sofá costuma ser o elemento central. Já em um quarto, a cama e o guarda-roupa se destacam.</p>
-        <ul class="lista-check">
-          <li>Móveis para descanso</li>
-          <li>Móveis para armazenamento</li>
-          <li>Móveis para refeição</li>
-          <li>Móveis para estudo e trabalho</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<section>
+<h2>Tipos de Móveis</h2>
+<div class="grade">
+<div class="card"><h3>Sofás</h3><p>Ideais para salas e espaços de convivência.</p></div>
+<div class="card"><h3>Mesas</h3><p>Usadas em cozinhas, escritórios e salas de jantar.</p></div>
+<div class="card"><h3>Armários</h3><p>Fundamentais para organização e armazenamento.</p></div>
+<div class="card"><h3>Cadeiras</h3><p>Importantes para conforto em refeições, estudo e trabalho.</p></div>
+</div>
+<div class="imagem">
+<img alt="Mesa de jantar" src="imagens/jantar.jpg"/>
+</div>
+</section>
 </main>
 <footer>
-  <p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
-  <div class="uniube-bloco">
-    <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
-      <img src="imagens/uniube.png" alt="Logo UNIUBE">
-    </a>
-    <p>UNIUBE</p>
+<p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
+<div class="uniube-bloco">
+<img alt="Logo UNIUBE" src="imagens/uniube.png"/>
+<p>UNIUBE</p>
+</div>
+<p class="footer-extra">Site responsivo com galeria, formulário, catálogo, quiz, carrinho e interações dinâmicas.</p></footer>
+<div class="assistente-flutuante" id="assistenteFlutuante">
+  <button class="assistente-btn" type="button">💡</button>
+  <div class="assistente-box">
+    <strong>Dica do projeto</strong>
+    <p>Explore os filtros, o tema escuro, a galeria e a página de layout interativo.</p>
   </div>
-</footer>
-<button id="voltarTopo" class="voltar-topo" aria-label="Voltar ao topo">↑</button>
+</div>
+<button class="voltar-topo" id="voltarTopo">↑</button>
 <script src="js/script.js"></script>
 </body>
 </html>
