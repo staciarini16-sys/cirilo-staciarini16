@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Área de atividades práticas do projeto Mundo dos Móveis, com CSS responsivo, card gamer, layout interativo e animações.">
+  <meta name="keywords" content="atividades, html, css, flexbox, animações, responsivo, uniube">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Atividades Práticas</title>
+</head>
+<body class="">
+<div class="preloader" id="preloader"><div class="loader-ring"></div><p>Carregando atividades...</p></div>
+<div class="reading-progress" id="readingProgress"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+<header>
+  <a class="uniube-topo" href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
+    <img src="imagens/uniube_logo.png" alt="Logotipo da Uniube">
+  </a>
+  <span class="tag-topo">prática + criatividade + tecnologia</span>
+  <h1>Mundo dos Móveis</h1>
+  <p>Área especial com atividades práticas integradas ao projeto.</p>
+  <button class="theme-toggle" id="themeToggle" type="button">🌙 Tema</button>
+</header>
+<nav class="nav-principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="historia.html">História</a><a href="tipos.html">Tipos</a><a href="materiais.html">Materiais</a><a href="vantagens.html">Vantagens</a><a href="ambientes.html">Ambientes</a><a href="links.html">Links</a><a href="tabela.html">Tabela</a><a href="fotos.html">Fotos</a><a href="contato.html">Contato</a><a href="layout.html">Layout Interativo</a><a href="animacoes.html">Animações</a><a href="atividades.html">Atividades</a></nav>
+<main>
+  <section class="hero hero-impacto hero-menor">
+    <div class="hero-bg-orb orb-1"></div>
+    <div class="hero-bg-orb orb-2"></div>
+    <div class="hero-conteudo hero-grid">
+      <div class="hero-texto">
+        <span class="destaque-vivo pulsar">Portfólio de atividades</span>
+        <h2>Projetos práticos organizados em uma área só.</h2>
+        <p>Esta página reúne as atividades enviadas em pastas, mantendo tudo dentro do site principal com visual moderno, botões de acesso e organização para apresentação acadêmica.</p>
+        <div class="hero-acoes">
+          <a class="botao botao-glow" href="#lista-atividades">Ver atividades</a>
+          <a class="botao botao-secundario" href="animacoes.html">Vitrine de Efeitos</a>
+        </div>
+      </div>
+      <div class="showcase-3d">
+        <div class="float-card card-a">HTML</div>
+        <div class="float-card card-b">CSS</div>
+        <div class="float-card card-c">JS</div>
+        <div class="room-card tilt-card"><span>+4</span><p>atividades práticas</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lista-atividades">
+    <div class="section-topo">
+      <span class="mini-tag">Arquivos integrados</span>
+      <h2>Atividades práticas do projeto</h2>
+    </div>
+    <p>As pastas foram adicionadas dentro de <strong>atividades/</strong>. Cada card abaixo abre uma atividade em uma nova página, mantendo o projeto organizado e fácil de apresentar.</p>
+    <div class="grade atividades-grade">
+      <article class="card card-colorido atividade-card tilt-card">
+        <span class="atividade-numero">01</span>
+        <h3>CSS Responsivo</h3>
+        <p>Exercício com layout adaptável para diferentes tamanhos de tela.</p>
+        <a class="botao" href="atividades/01_css_responsivo/index.html">Abrir atividade</a>
+      </article>
+      <article class="card card-colorido atividade-card tilt-card">
+        <span class="atividade-numero">02</span>
+        <h3>Card Gamer Dinâmico</h3>
+        <p>Card visual com estilo moderno, efeitos e aparência chamativa.</p>
+        <a class="botao" href="atividades/02_card_gamer_dinamico/index.html">Abrir atividade</a>
+      </article>
+      <article class="card card-colorido atividade-card tilt-card">
+        <span class="atividade-numero">03</span>
+        <h3>Layout Interativo</h3>
+        <p>Atividade prática de organização visual com propriedades de layout.</p>
+        <a class="botao" href="atividades/03_flexbox_playground/index.html">Abrir atividade</a>
+      </article>
+      <article class="card card-colorido atividade-card tilt-card">
+        <span class="atividade-numero">04</span>
+        <h3>Vitrine de Animações</h3>
+        <p>Botão hover, badge pulsante, spinner, fade-in e barra de progresso.</p>
+        <a class="botao" href="atividades/04_animacoes_vitrine/index.html">Abrir atividade</a>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-topo">
+      <span class="mini-tag">Resumo</span>
+      <h2>O que foi acrescentado</h2>
+    </div>
+    <div class="caixa destaque-caixa">
+      <h3>Projeto atualizado</h3>
+      <p>Além da página principal de animações já integrada ao site, agora o projeto também possui uma área separada com as pastas de atividades práticas, funcionando como um pequeno portfólio acadêmico dentro do próprio site.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
+  <div class="uniube-bloco">
+    <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer"><img src="imagens/uniube.png" alt="Logo UNIUBE"></a>
+    <p>UNIUBE</p>
+  </div>
+</footer>
+<button id="voltarTopo" class="voltar-topo" aria-label="Voltar ao topo">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>

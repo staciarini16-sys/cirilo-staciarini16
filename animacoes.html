@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Vitrine de efeitos CSS com animações aplicadas ao projeto Mundo dos Móveis."/>
+<meta name="keywords" content="CSS, animações, móveis, vitrine de efeitos, Uniube"/>
+<title>Vitrine de Efeitos - Mundo dos Móveis</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta content="#123f8c" name="theme-color"/>
+</head>
+<body>
+<div class="progress-scroll" id="progressScroll"></div>
+<div class="preloader" id="preloader"><div class="loader-ring"></div><p>Carregando vitrine...</p></div>
+<header>
+  <div class="header-tools"><span class="pill">Atividade prática CSS Animações</span><button aria-label="Alternar tema" class="theme-toggle" type="button">🌙</button></div>
+  <a class="uniube-topo" href="https://uniube.br/" target="_blank"><img alt="Logotipo da Uniube" src="imagens/uniube_logo.png"/></a>
+  <h1>Mundo dos Móveis</h1>
+  <p>Vitrine de efeitos animados para deixar o site mais moderno.</p>
+</header>
+<nav class="nav-principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="historia.html">História</a><a href="tipos.html">Tipos</a><a href="materiais.html">Materiais</a><a href="vantagens.html">Vantagens</a><a href="ambientes.html">Ambientes</a><a href="links.html">Links</a><a href="tabela.html">Tabela</a><a href="fotos.html">Fotos</a><a href="contato.html">Contato</a><a href="layout.html">Layout Interativo</a><a href="animacoes.html">Animações</a><a href="atividades.html">Atividades</a></nav>
+<main>
+<section class="anim-hero">
+  <div class="anim-hero-texto">
+    <span class="destaque-vivo anim-pulse-soft">✨ Vitrine de Efeitos</span>
+    <h2>5 componentes animados aplicados ao showroom de móveis</h2>
+    <p>Esta página acrescenta os efeitos pedidos na atividade: botão com hover, badge pulsante, spinner, card com fade-in e barra de progresso com gradiente.</p>
+    <div class="anim-hero-actions">
+      <a href="#efeitos" class="botao botao-glow">Ver efeitos</a>
+      <a href="index.html" class="botao botao-secundario">Voltar ao início</a>
+    </div>
+  </div>
+  <div class="anim-hero-preview tilt-card">
+    <img src="imagens/cozinha_preta_ambiente.jpg" alt="Cozinha moderna planejada">
+    <div class="badge-wrap-movel"><span class="icone-movel">🔔</span><span class="badge-movel">5</span></div>
+  </div>
+</section>
+
+<section id="efeitos" class="vitrine-efeitos-grid">
+  <article class="vitrine-efeito-card">
+    <span class="efeito-numero">01</span>
+    <h2>Botão Hover</h2>
+    <p>O botão sobe suavemente e ganha sombra ao passar o mouse.</p>
+    <button class="btn-hover-movel" type="button">Ver coleção premium ✨</button>
+  </article>
+
+  <article class="vitrine-efeito-card">
+    <span class="efeito-numero">02</span>
+    <h2>Badge Pulsante</h2>
+    <p>O destaque vermelho pulsa continuamente para simular notificações do catálogo.</p>
+    <div class="badge-wrap-movel demo-badge"><span class="icone-movel">🛋️</span><span class="badge-movel">3</span></div>
+  </article>
+
+  <article class="vitrine-efeito-card">
+    <span class="efeito-numero">03</span>
+    <h2>Spinner de Carregamento</h2>
+    <p>Um círculo girando representa carregamento de imagens do showroom.</p>
+    <div class="spinner-movel" aria-label="Carregando"></div>
+    <small>Passe o mouse para pausar.</small>
+  </article>
+
+  <article class="vitrine-efeito-card card-fade-movel delay-0">
+    <span class="efeito-numero">04</span>
+    <h2>Card com Fade-In</h2>
+    <p>O card aparece deslizando de baixo para cima com suavidade.</p>
+    <div class="fade-demo-card">Ambiente planejado com conforto, design e funcionalidade.</div>
+  </article>
+
+  <article class="vitrine-efeito-card">
+    <span class="efeito-numero">05</span>
+    <h2>Barra de Progresso</h2>
+    <p>A barra preenche até 75% com gradiente, como um medidor de conclusão visual.</p>
+    <div class="barra-container-movel"><div class="barra-fill-movel"></div></div>
+    <strong class="porcentagem-movel">75% de inspiração carregada</strong>
+  </article>
+</section>
+
+<section class="cards-cascata">
+  <div class="section-topo"><span class="mini-tag">Desafio extra</span><h2>Cards em cascata</h2></div>
+  <p>Também apliquei o desafio do arquivo: três cards com delay diferente para aparecerem em sequência.</p>
+  <div class="cards-cascata-grid">
+    <article class="card-fade-movel delay-0"><img src="imagens/rack_grafite_sala.jpg" alt="Rack moderno"><h3>Sala moderna</h3><p>Rack elegante com visual contemporâneo.</p></article>
+    <article class="card-fade-movel delay-1"><img src="imagens/quarto_planejado_com_cama.jpg" alt="Quarto planejado"><h3>Quarto planejado</h3><p>Armários funcionais e sofisticados.</p></article>
+    <article class="card-fade-movel delay-2"><img src="imagens/banheiro_premium.jpg" alt="Banheiro com gabinete"><h3>Banheiro premium</h3><p>Gabinete, espelho e acabamento limpo.</p></article>
+  </div>
+</section>
+
+<section class="resumo-animacoes">
+  <div class="section-topo"><span class="mini-tag">Resumo</span><h2>O que foi praticado</h2></div>
+  <table>
+    <thead><tr><th>Efeito</th><th>Conceito usado</th><th>Resultado visual</th></tr></thead>
+    <tbody>
+      <tr><td>Botão hover</td><td>transition + translateY</td><td>Botão sobe e ganha sombra.</td></tr>
+      <tr><td>Badge pulsante</td><td>@keyframes + scale + opacity</td><td>Número fica pulsando.</td></tr>
+      <tr><td>Spinner</td><td>@keyframes + rotate</td><td>Círculo gira continuamente.</td></tr>
+      <tr><td>Card fade-in</td><td>opacity + translateY + forwards</td><td>Card aparece com movimento.</td></tr>
+      <tr><td>Barra progresso</td><td>width + animation-delay</td><td>Barra preenche até 75%.</td></tr>
+    </tbody>
+  </table>
+</section>
+</main>
+<footer>
+<p>Nome: Cirilo Alfeu de Souza Staciarini | RA: 5175262</p>
+<div class="uniube-bloco"><img alt="Logo UNIUBE" src="imagens/uniube.png"/><p>UNIUBE</p></div>
+<p class="footer-extra">Página adicionada com os componentes animados da atividade prática.</p>
+</footer>
+<button class="voltar-topo" id="voltarTopo">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -13,4 +13,10 @@
   <url><loc>contato.html</loc></url>
   <url><loc>secreto/segredo.html</loc></url>
   <url><loc>layout.html</loc></url>
+  <url><loc>animacoes.html</loc></url>
+  <url><loc>atividades.html</loc></url>
+  <url><loc>atividades/01_css_responsivo/index.html</loc></url>
+  <url><loc>atividades/02_card_gamer_dinamico/index.html</loc></url>
+  <url><loc>atividades/03_flexbox_playground/index.html</loc></url>
+  <url><loc>atividades/04_animacoes_vitrine/index.html</loc></url>
 </urlset>

@@ -32,7 +32,7 @@
 <h1>Mundo dos Móveis</h1>
 <p>Projeto Web - Parte 1</p>
 </header>
-<nav class="nav-principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="historia.html">História</a><a href="tipos.html">Tipos</a><a href="materiais.html">Materiais</a><a href="vantagens.html">Vantagens</a><a href="ambientes.html">Ambientes</a><a href="links.html">Links</a><a href="tabela.html">Tabela</a><a href="fotos.html">Fotos</a><a href="contato.html">Contato</a><a href="layout.html">Layout Interativo</a></nav>
+<nav class="nav-principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="historia.html">História</a><a href="tipos.html">Tipos</a><a href="materiais.html">Materiais</a><a href="vantagens.html">Vantagens</a><a href="ambientes.html">Ambientes</a><a href="links.html">Links</a><a href="tabela.html">Tabela</a><a href="fotos.html">Fotos</a><a href="contato.html">Contato</a><a href="layout.html">Layout Interativo</a><a href="animacoes.html">Animações</a><a href="atividades.html">Atividades</a></nav>
 <section class="hero hero-impacto">
   <div class="hero-bg-orb orb-1"></div>
   <div class="hero-bg-orb orb-2"></div>
@@ -44,6 +44,7 @@
       <div class="hero-acoes">
         <a class="botao botao-glow" href="#showroom">Entrar no showroom</a>
         <a class="botao botao-secundario" href="layout.html">Ver Layout</a>
+        <a class="botao botao-secundario" href="animacoes.html">Ver Animações</a>
       </div>
       <div class="hero-mini-stats">
         <span><strong>3D</strong> visual</span>
@@ -102,10 +103,22 @@
   <div class="section-topo"><span class="mini-tag">Coleção premium</span><h2>Ambientes modernos para inspirar</h2></div>
   <p>Esta área valoriza o projeto com imagens mais elegantes de móveis, trazendo aparência de showroom profissional e deixando a navegação mais chamativa.</p>
   <div class="colecao-grid">
-    <article class="colecao-card grande tilt-card"><img src="imagens/sala.jpg" alt="Sala moderna e elegante"><div><span>Sala moderna</span><h3>Conforto com visual premium</h3></div></article>
-    <article class="colecao-card tilt-card"><img src="imagens/mesa.jpg" alt="Mesa de jantar moderna"><div><span>Jantar</span><h3>Mesa elegante</h3></div></article>
-    <article class="colecao-card tilt-card"><img src="imagens/armario.jpg" alt="Armário planejado moderno"><div><span>Organização</span><h3>Armário planejado</h3></div></article>
+    <article class="colecao-card grande tilt-card"><img src="imagens/painel_tv_madeira.jpg" alt="Painel de TV moderno"><div><span>Sala planejada</span><h3>Painel moderno com iluminação</h3></div></article>
+    <article class="colecao-card tilt-card"><img src="imagens/cozinha_verde_modular.jpg" alt="Cozinha moderna"><div><span>Cozinha</span><h3>Modular e sofisticada</h3></div></article>
+    <article class="colecao-card tilt-card"><img src="imagens/quarto_planejado_com_cama.jpg" alt="Quarto planejado"><div><span>Quarto</span><h3>Armários sob medida</h3></div></article>
   </div>
+</section>
+
+
+<section class="efeitos-home">
+  <div class="section-topo"><span class="mini-tag">Nova atividade</span><h2>Vitrine de efeitos animados</h2></div>
+  <p>Incluí uma área especial com os 5 componentes animados da atividade: botão hover, badge pulsante, spinner, cards com fade-in e barra de progresso.</p>
+  <div class="efeitos-home-grid">
+    <article class="efeito-mini-card anim-fade-cascade"><span>01</span><h3>Hover elegante</h3><p>Botões com movimento e sombra.</p></article>
+    <article class="efeito-mini-card anim-fade-cascade delay-1"><span>02</span><h3>Pulso visual</h3><p>Notificação animada para chamar atenção.</p></article>
+    <article class="efeito-mini-card anim-fade-cascade delay-2"><span>03</span><h3>Progresso</h3><p>Barra com gradiente e carregamento suave.</p></article>
+  </div>
+  <a class="botao botao-glow" href="animacoes.html">Abrir vitrine de efeitos</a>
 </section>
 
 <section class="marquee-section" aria-label="Destaques do projeto">
@@ -125,7 +138,7 @@
 </section>
 
 <section class="painel-resumo">
-<div class="stat-card"><strong data-counter="12">0</strong><span>Páginas no menu</span></div>
+<div class="stat-card"><strong data-counter="13">0</strong><span>Páginas no menu</span></div>
 <div class="stat-card"><strong data-counter="8">0</strong><span>Cenas de Layout</span></div>
 <div class="stat-card"><strong data-counter="4">0</strong><span>Categorias de móveis</span></div>
 <div class="stat-card"><strong data-counter="100">0</strong><span>% Responsivo</span></div>
@@ -135,16 +148,16 @@
 <p>Use os filtros para visualizar categorias diferentes. Os botões de adicionar simulam um carrinho simples em JavaScript.</p>
 <div class="filtros-catalogo" id="filtrosCatalogo">
 <button class="filtro-btn ativo" data-filter="todos">Todos</button>
-<button class="filtro-btn" data-filter="sofa">Sofás</button>
-<button class="filtro-btn" data-filter="mesa">Mesas</button>
-<button class="filtro-btn" data-filter="armario">Armários</button>
-<button class="filtro-btn" data-filter="decoracao">Decoração</button>
+<button class="filtro-btn" data-filter="cozinha">Cozinhas</button>
+<button class="filtro-btn" data-filter="sala">Salas</button>
+<button class="filtro-btn" data-filter="quarto">Quartos</button>
+<button class="filtro-btn" data-filter="banheiro">Banheiros</button>
 </div>
 <div class="catalogo-grid" id="catalogoProdutos">
-<article class="produto-card" data-category="sofa" data-name="Sofá Confort Plus" data-price="2899"><img alt="Sofá moderno" src="imagens/sofa.jpg"/><div class="produto-info"><span class="produto-tag">Sala</span><h3>Sofá Confort Plus</h3><p>Modelo moderno para conforto e destaque visual.</p><div class="produto-rodape"><strong>R$ 2.899,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
-<article class="produto-card" data-category="mesa" data-name="Mesa Elegance" data-price="1499"><img alt="Mesa elegante" src="imagens/mesa.jpg"/><div class="produto-info"><span class="produto-tag">Jantar</span><h3>Mesa Elegance</h3><p>Acabamento sofisticado para refeições em família.</p><div class="produto-rodape"><strong>R$ 1.499,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
-<article class="produto-card" data-category="armario" data-name="Armário Smart" data-price="1999"><img alt="Armário planejado" src="imagens/armario.jpg"/><div class="produto-info"><span class="produto-tag">Organização</span><h3>Armário Smart</h3><p>Boa capacidade de armazenamento com visual limpo.</p><div class="produto-rodape"><strong>R$ 1.999,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
-<article class="produto-card" data-category="decoracao" data-name="Poltrona Style" data-price="899"><img alt="Poltrona decorativa" src="imagens/extra.jpg"/><div class="produto-info"><span class="produto-tag">Decoração</span><h3>Poltrona Style</h3><p>Peça ideal para cantinhos de leitura e descanso.</p><div class="produto-rodape"><strong>R$ 899,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
+<article class="produto-card" data-category="cozinha" data-name="Cozinha Black Premium" data-price="4599"><img alt="Cozinha planejada preta" src="imagens/cozinha_preta_produto.jpg"/><div class="produto-info"><span class="produto-tag">Cozinha</span><h3>Cozinha Black Premium</h3><p>Conjunto planejado com visual sofisticado, nichos funcionais e acabamento elegante.</p><div class="produto-rodape"><strong>R$ 4.599,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
+<article class="produto-card" data-category="sala" data-name="Rack Dallas Grafite" data-price="1299"><img alt="Rack grafite para sala" src="imagens/rack_grafite_sala.jpg"/><div class="produto-info"><span class="produto-tag">Sala</span><h3>Rack Dallas Grafite</h3><p>Rack moderno para TV com pés retrô e presença visual elegante.</p><div class="produto-rodape"><strong>R$ 1.299,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
+<article class="produto-card" data-category="quarto" data-name="Quarto Planejado Prime" data-price="6899"><img alt="Quarto planejado com armários" src="imagens/quarto_planejado_com_cama.jpg"/><div class="produto-info"><span class="produto-tag">Quarto</span><h3>Quarto Planejado Prime</h3><p>Armários amplos com acabamento amadeirado e composição visual luxuosa.</p><div class="produto-rodape"><strong>R$ 6.899,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
+<article class="produto-card" data-category="banheiro" data-name="Gabinete Paris Premium" data-price="999"><img alt="Gabinete de banheiro moderno" src="imagens/banheiro_premium.jpg"/><div class="produto-info"><span class="produto-tag">Banheiro</span><h3>Gabinete Paris Premium</h3><p>Conjunto com espelheira, gabinete e estilo limpo para banheiro elegante.</p><div class="produto-rodape"><strong>R$ 999,00</strong><button class="botao add-cart">Adicionar</button></div></div></article>
 </div>
 <aside class="carrinho" id="carrinho"><h3>🛒 Carrinho do projeto</h3><p><span id="cartCount">0</span> item(ns) adicionados | Total: <strong id="cartTotal">R$ 0,00</strong></p><button class="botao botao-secundario" id="limparCarrinho" type="button">Limpar</button></aside>
 </section>
