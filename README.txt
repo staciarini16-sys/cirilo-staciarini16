@@ -54,3 +54,5 @@ Atualização com pastas de atividades:
 - Pasta atividades/ incluída no projeto.
 - Atividades integradas: 01_css_responsivo, 02_card_gamer_dinamico, 03_flexbox_playground e 04_animacoes_vitrine.
 - Sitemap atualizado com as novas páginas.
+
+- Menu hambúrguer responsivo para navegação em celulares e tablets.
